@@ -1,0 +1,190 @@
+/* <-- Full Page --> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    min-height: 100%;
+    font-family: Roboto;
+}
+
+.base {
+    display: flex;
+    min-height: 100vh;
+    flex-grow: 1;
+    flex-direction: column; /* This forces the header to the bottom of the page */
+}
+
+/* <-- Header --> */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10% 16px 10%;
+    background: #1F2937;
+}
+
+.header img {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* <-- Hero --> */
+.hero {
+    display: flex;
+    flex-grow: 1;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 32px;
+}
+
+.hero .info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.hero .info .text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.hero .info .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.hero .image img {
+    height: 200px;
+    width: 200px;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.hero .info button {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    background: #3882F6;
+    border-radius: 25px;
+    margin-top: 16px;
+}
+
+/* <-- Images --> */
+.images {
+    background: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.images .tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.images .tiles img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    background: lightblue;
+    border-radius: 15px;
+}
+
+.images .images-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* <-- Quote --> */
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #E5E7EB;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+    text-align: right;
+}
+
+/* <-- Action --> */
+.action {
+    display: flex;
+    flex-grow: 1;
+    background: #3882F6;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 64px;
+    border-radius: 50px;
+}
+
+.action .action-text .main-text {
+    font-size: 32px;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.action .action-text .action-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.action button {
+    padding: 10px;
+    background: #3882F6;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+
+/* <-- Footer --> */
+.footer {
+    padding: 16px;
+    text-align: center;
+    background: gray;
+}
