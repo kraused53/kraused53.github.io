@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 /* <-- Full Page --> */
 body {
@@ -11,36 +12,89 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: lightsteelblue;
+    background: #072227;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-.header .logo img {
-    list-style: none;
-    background: gold;
-    padding: 16px;
-    border-radius: 50%;
-    border: 2px solid black;
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    color: #AEFEFF;
+    font-family: Raleway;
+    font-size: 24px;
 }
 
 .header .links ul {
     list-style: none;
 }
 
+/*
 .header .links a {
     text-decoration: none;
-    color: black;
+    background: #AEFEFF;
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: 3px solid #35858B;
+
+    font-size: 16px;
+    font-family: Raleway;
+    color: #35858B;
 }
+*/
 
 /* <-- Main Content --> */
 .main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+     
+    gap: 16px;
     flex-grow: 1;
+}
+
+.main p {
+    font-family: Raleway;
+    font-size: 24px;
+}
+
+.main .tiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    
+    gap: 16px;
+}
+
+.main .tiles .card p {
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+.main .tiles .card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid #072227;
+    background: #AEFEFF;
+    border-radius: 25px;
+
+    font-family: Raleway;
+    text-align: center;
+    text-decoration: none;
+    color: #072227;
 }
 
 /* <-- Footer --> */
@@ -51,6 +105,15 @@ body {
     justify-content: center;
     padding-bottom: 16px;
     padding-top: 16px;
-    background: midnightblue;
+    background: #072227;
     color: linen;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Raleway;
+    color: linen;
+    padding-left: 8px;
+    padding-right: 8px;
 }
