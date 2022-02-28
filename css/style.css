@@ -34,10 +34,9 @@ body {
 }
 
 /*
-.header .links a {
+.header .links li {
     text-decoration: none;
     background: #AEFEFF;
-    padding: 8px 16px;
     border-radius: 16px;
     border: 3px solid #35858B;
 
