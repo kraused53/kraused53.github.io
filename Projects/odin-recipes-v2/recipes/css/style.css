@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* <-- Full Page --> */
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #D3ECA7;
+
+    min-height: 100vh
+}
+
+/* <-- Header --> */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header a {
+    text-decoration: none;
+    background: #B33030;
+    color: #19282F;
+
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #19282F;
+
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+/* <-- Upper [Title, Ingredients, Image] --> */
+.upper {
+    display: flex;
+    margin-top: 32px;
+    gap: 32px;
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.upper .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.upper .left .title {
+    font-size: 24px;
+    color: #A1B57D;
+    font-family: Sofia;
+
+    background: #19282F;
+    
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.upper .left .description {
+    font-size: 16px;
+    font-family: Roboto;
+    text-align: center;
+    width: 400px;
+
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.upper .left ul {
+    font-size: 16px;
+    font-family: Roboto;
+    
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.upper .right img {
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+    border: #19282F solid 3px;
+}
+
+/* <-- Lower [Preparation] --> */
+.lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 32px;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-size: 16px;
+    font-family: Roboto;
+
+}
+
+.lower li {
+    padding: 4px;
+}
+
+.lower .ingredients {
+    width: 35%;
+}
+
+.lower .preparation {
+    width: 65%;
+    border-left: 2px solid #19282F;
+}
